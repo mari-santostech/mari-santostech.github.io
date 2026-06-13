@@ -61,6 +61,7 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
     cursor: none;
+    overflow-x: hidden;
     
     cursor: url('cursorr.png')7 8,move;
 }
@@ -740,7 +741,7 @@ color: var(--bg-color);
     justify-content: center;
     align-items: center;
     background-color: black;
-    padding: 30px 40px;
+    padding: 30px 20px;
     margin-top: auto;
 }
 .education,
@@ -843,6 +844,9 @@ section:nth-child(odd) .animate.scroll{
     }
     .portfolio{
         padding-bottom:7rem ;
+    }
+    .footer-foreground {
+        padding: 2rem 4%;
     }
 }
 
@@ -951,7 +955,7 @@ section:nth-child(odd) .animate.scroll{
     }
 }
 
-@media(max-width:520px){
+@media (max-width: 520px){
     html{
         font-size: 50%;
     }
@@ -991,6 +995,9 @@ section:nth-child(odd) .animate.scroll{
     }
     .coding-screen{
         width: 150px;
+    }
+    .footer-foreground {
+        padding: 2rem 5%;
     }
 }
 
@@ -1256,5 +1263,9 @@ section:nth-child(odd) .animate.scroll{
 
     .project-card p {
         font-size: 1.4rem;
+    }
+
+    .footer-foreground {
+        padding: 2rem 4%;
     }
 }
